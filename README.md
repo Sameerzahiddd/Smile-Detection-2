@@ -1,2 +1,3 @@
 # Smile-Detection-2
-An attempt at transforming non-smiling faces into smiling ones.
+## An attempt at transforming non-smiling faces into smiling ones.
+### Compared to the original Smile-Detection project, which focused on a small, balanced dataset of 208 images and evaluated Logistic Regression vs. CNN for a straightforward binary classification task, this updated project uses a much larger dataset (nearly 14,000 images) and integrates generative modeling (CycleGAN) to transform non-smiling faces into smiling ones. In other words, while the original project was strictly a classification pipeline (deciding if someone is smiling or not), the new project expands the scope to include image-to-image translation and advanced deep-learning architectures, resulting in both a more comprehensive dataset and more sophisticated model exploration.
